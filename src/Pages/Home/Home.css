@@ -1,0 +1,76 @@
+.popular-info p{
+
+    font-size: 20px;
+    color: #444259;
+    font-style: italic;
+}
+.recipe-image img{
+
+    border-radius: 5px;;
+}
+.popular-info h2 , .popular-recipes{
+    color: #444259;
+    font-style: italic;
+}
+
+.category-image img{
+
+    width: 80%;
+}
+
+.categories{
+
+    background-image: url("https://www.bigoven.com/assets/images/hero/new_BigOven/bkg-3.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    background-attachment: fixed;
+    z-index: 1;
+    
+    
+}
+.lay-out{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 ,.7);
+}
+.categories-desc h3{
+
+    position: relative;
+    z-index: 3;
+    padding-top: 70px;
+    padding-bottom: 90px;
+
+    
+}
+.popular-recipes{
+
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.popular-recipe-image img:hover{
+
+    transform: scale(1.03);
+    transition: transform .5s ease;
+}
+
+
+@media only screen and (max-width:576px){
+
+    .popular-recipe-image p{
+
+        text-align: center;
+
+    }
+
+
+}

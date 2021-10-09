@@ -1,0 +1,52 @@
+.image:hover{
+    transform: scale(1.1);
+    transition: all .7s ease;
+
+}
+.image-container{
+
+    overflow: hidden;
+
+}
+.details{
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.more-details button , .favourites button {
+
+    outline: none;
+    background-color: #444259;
+    color: white;
+    border: 1px solid #444259;
+    padding: 5px;
+    border-radius: 5px;
+}
+.more-details button:hover , .favourites button:hover{
+    background-color:#FE6B8B;
+    color: white;
+    transition: all .7s ease;
+    border: 1px solid white;
+
+
+}
+.recipe-list p {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:767.9px){
+
+    .recipe-list p {
+
+        text-align: center;
+    }
+    .more-details{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+
+}

@@ -1,0 +1,18 @@
+.header{
+
+    background-image: linear-gradient(to left,#444259, #FE6B8B);
+    padding: 10px 0;
+    
+}
+.header h2{
+
+    color: white;
+    font-weight:bold ;
+    font-size: 30px;
+    
+    
+}
+.header_title{
+    width: 90%;
+    margin: 0 auto;
+}

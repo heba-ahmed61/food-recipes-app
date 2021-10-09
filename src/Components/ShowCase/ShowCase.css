@@ -1,0 +1,44 @@
+.image-test{
+
+    max-height:50vh;
+    width: 100%;
+
+}
+.showcase{
+    background-image: url("http://html.multipurposethemes.com/delicious/multipage/images/page-banner.jpg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 120px;
+    
+}
+.layout{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 ,.3);
+}
+.content h3,
+.content h4
+{
+
+    position: relative;
+    color: white;
+    z-index: 2;
+    
+}
+.content h3{
+    animation-duration:0
+}
+.content h4{
+    animation-duration: 1s
+}
+.content{
+
+    padding-top: 160px;
+}
